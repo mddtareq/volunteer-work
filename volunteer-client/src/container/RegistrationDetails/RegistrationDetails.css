@@ -1,5 +1,5 @@
 .details{
-    width: 400px;
+    width: 100%;
     background-color:rgba(128, 128, 128, 0.24);
     margin-bottom:20px;
     padding: 5px;
@@ -11,5 +11,5 @@
 }
 .details button{
     margin-top: -80px;
-    margin-left:80%;
+    margin-left:70%;
 }

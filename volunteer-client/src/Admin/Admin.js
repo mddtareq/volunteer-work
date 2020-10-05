@@ -115,25 +115,26 @@ const Admin = () => {
                         <div className="col-md-8">
                         <form onSubmit={addEvent} action="">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 col-sm-6">
                                         <label htmlFor="title">Title</label>
                                         <input onChange={change} className="form-control" type="text" name="name" id="title" required/>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 col-sm-6">
                                     <label htmlFor="date">Date</label>
                                         <input onChange={change} className="form-control" type="date" name="date" id="date" min={today} required/>
                                     </div>
                                     <div className="space"></div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 col-sm-6">
                                         <label htmlFor="description">Description</label>
                                             <textarea onChange={change} className="form-control" name="description" id="description" cols="30" rows="3" required></textarea>
                                     </div>
-                                    <div className="col-md-6">
+                                    
+                                    <div className="col-md-6 col-sm-6">
                                         <label htmlFor="banner">Banner :</label>
                                         <input type="file"/>
                                     </div>
-                                    <div className="col-md-10"></div>
-                                    <div className="col-md-2">
+                                    <div className="col-md-10 col-sm-9"></div>
+                                    <div className="col-md-2 col-sm-3">
                                             <button className="btn btn-primary">Submit</button>
                                     </div>
                                 </div>

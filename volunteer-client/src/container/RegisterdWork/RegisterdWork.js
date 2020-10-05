@@ -31,15 +31,13 @@ const RegisterdWork = () => {
         <h3 className="text-center">Registered Work</h3>
         <br/>
             <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-10">
+                <div className="col-md-1 col-1 col-sm-1"></div>
+                <div className="col-md-10 col-10 sol-sm-10">
                     <div className="row">
-                    
-                    
                     {registerd.map(reg=><RegistrationDetails deleteWork={deleteWork} key={reg._Id} reg={reg}></RegistrationDetails>)}
                     </div>
                 </div>
-                <div className="col-md-1"></div>
+                <div className="col-md-1 col-1 col-sm-1"></div>
             </div>
         </div>
     );

@@ -5,6 +5,24 @@
     border:1px solid rgba(177, 173, 173, 0.419);
 }
 
+@media only screen and (max-width:575px){
+    .login{
+        margin:auto;
+        width:90%;
+        background-color:white;
+        border:1px solid rgba(177, 173, 173, 0.419);
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px){
+    .login{
+        margin:auto;
+        width:70%;
+        background-color:white;
+        border:1px solid rgba(177, 173, 173, 0.419);
+    }
+}
+
 .login-header{
     text-align: center;
     margin-top:70px;

@@ -20,8 +20,8 @@ const Header = () => {
                     <Link to="/">Events</Link>
                     <Link to="/blog">Blog</Link>
                     {logged.isSignIn&&<Link to="/registered">Registered</Link>}
-                    {!logged.isSignIn && <Link className="btn-blue" to="/register">Register</Link>}
-                    {!logged.isSignIn && <Link to="/admin" className="btn-black" to="/admin">Admin</Link>}
+                    {!logged.isSignIn && <Link to="/login" className="btn-blue">Register</Link>}
+                    {!logged.isSignIn && <Link to="/admin" className="btn-black">Admin</Link>}
                     {logged.isSignIn && <Link to="/login">{logged.name}</Link>}
                     </Nav>
                 </Navbar.Collapse>

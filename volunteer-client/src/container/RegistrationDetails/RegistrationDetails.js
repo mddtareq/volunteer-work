@@ -5,7 +5,7 @@ const RegistrationDetails = ({reg,deleteWork}) => {
     const { description, date,_id } = reg;
     
     return (
-        <div className="col-md-6">
+        <div className="col-md-6 col-sm-12 col-12">
             <div className="details">
                 <div className="d-flex justify-content-between">
                     <img src={demo} alt="" />
