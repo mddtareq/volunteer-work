@@ -1,0 +1,23 @@
+/* search-input */
+.search-input input{
+    border: 1px solid rgba(0, 0, 0, 0.275);
+    height:35px;
+    border-radius:2px;
+    width:250px;
+    outline:none;
+}
+
+.search-button input{
+    border: 1px solid rgba(0, 0, 0, 0.275);
+    height:35px;
+    border-radius:2px;
+    width:70px;
+}
+
+.search-work div{
+    display: inline;
+}
+
+.search-work{
+    margin-top:20px;
+}

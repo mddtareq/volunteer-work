@@ -1,0 +1,52 @@
+.login{
+    margin:auto;
+    width:40%;
+    background-color:white;
+    border:1px solid rgba(177, 173, 173, 0.419);
+}
+
+.login-header{
+    text-align: center;
+    margin-top:70px;
+    margin-bottom:25px;
+}
+
+.account{
+    margin-bottom:100px;
+}
+
+.google{ 
+    border:1px solid rgba(0, 0, 0, 0.234);
+    height:30px;
+    border-radius:30px;
+    background-color:white;
+}
+.google img{
+    padding:2px;
+    width:30px;
+    height:30px;
+}
+.google p{
+    font-weight:bolder;
+    margin-top:15px;
+    font-size:16px;
+    opacity:.5;
+}
+.social-btn button{
+    padding:0px;
+    text-decoration:none; 
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    height:30px;
+    width:100%;
+}
+button:focus{
+    outline:0!important;
+}
+.social-btn{
+    margin-bottom:15px;
+}
+.card-text{
+    text-align:left;
+    padding:5px;
+}

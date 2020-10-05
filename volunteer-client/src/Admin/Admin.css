@@ -1,0 +1,37 @@
+.all-volunteer{
+    border: 1px solid rgba(170, 165, 165, 0.514);
+}
+.deleteBtn img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.details-volunteer{
+    font-size: 13px;
+    margin-bottom:10px;
+}
+.heading{
+    background-color:rgb(219, 216, 216);
+}
+.addEvent input{
+    margin-bottom: 20px;
+}
+#volunteer-register{
+}
+#addEvent{
+    display: none;
+}
+.toggle h6{
+    margin-left:30px;
+    display: inline;
+    cursor: pointer;
+}
+.toggle{
+    margin-bottom:30px;
+}
+#vol{
+border-bottom: 3px solid #FFBD3E;
+}
+#add{
+
+}

@@ -1,0 +1,52 @@
+/* logo image */
+
+.logo-style img{
+    width: 160px;
+    height: 40px;
+}
+
+/* blue button */
+
+.btn-blue{
+    border:none;
+    background-color:#3F90FC;
+    color: white!important;
+    padding: 2px 10px 2px 10px;
+    border-radius:2px;
+}
+.btn-blue:hover{
+    color: white!important;
+}
+
+/* black buton */
+
+.btn-black{
+    border:none;
+    background-color:#434141;
+    color: white!important;
+    padding: 2px 10px 2px 10px;
+    border-radius:2px;
+}
+.btn-black:hover{
+    color: white!important;
+}
+
+/* a customization */
+
+.links a{
+    margin-bottom:15px;
+    text-align: center;
+    font-weight:600;
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.775);
+}
+
+.links a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* margin bottom */
+.custom-nav{
+    margin-bottom: 50px;
+}

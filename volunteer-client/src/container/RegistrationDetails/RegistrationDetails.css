@@ -1,0 +1,15 @@
+.details{
+    width: 400px;
+    background-color:rgba(128, 128, 128, 0.24);
+    margin-bottom:20px;
+    padding: 5px;
+    border-radius:5px;
+}
+.details img{
+    width: 50%;
+    height: 170px;
+}
+.details button{
+    margin-top: -80px;
+    margin-left:80%;
+}

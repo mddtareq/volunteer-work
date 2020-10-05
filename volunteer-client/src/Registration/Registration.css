@@ -1,0 +1,12 @@
+.reg{
+    border: 1px solid rgba(136, 128, 128, 0.275);
+    text-align: center;
+}
+
+.InUp input{
+    outline: none;
+    border: none;;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.309);
+    margin-bottom:10px;
+    width:80%;
+}
