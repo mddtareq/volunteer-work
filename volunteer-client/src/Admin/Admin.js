@@ -131,10 +131,11 @@ const Admin = () => {
                                     
                                     <div className="col-md-6 col-sm-6">
                                         <label htmlFor="banner">Banner :</label>
+                                        <br/>
                                         <input type="file"/>
                                     </div>
-                                    <div className="col-md-10 col-sm-9"></div>
-                                    <div className="col-md-2 col-sm-3">
+                                    <div className="col-md-10 col-sm-9 col-8"></div>
+                                    <div className="col-md-2 col-sm-3 col-3">
                                             <button className="btn btn-primary">Submit</button>
                                     </div>
                                 </div>
