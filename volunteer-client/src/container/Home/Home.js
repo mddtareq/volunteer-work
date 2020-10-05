@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
     const [works, setWorks] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/volunteer-work-types')
+        fetch('https://volunteer-work-tareq.herokuapp.com/volunteer-work-types')
             .then(response => response.json()
                 .then(data => setWorks(data))
             )

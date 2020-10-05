@@ -13,10 +13,9 @@
 .heading{
     background-color:rgb(219, 216, 216);
 }
-.addEvent input{
-    margin-bottom: 20px;
-}
-#volunteer-register{
+.space{
+    width: 100%;
+    height: 25px;
 }
 #addEvent{
     display: none;
@@ -31,7 +30,4 @@
 }
 #vol{
 border-bottom: 3px solid #FFBD3E;
-}
-#add{
-
 }

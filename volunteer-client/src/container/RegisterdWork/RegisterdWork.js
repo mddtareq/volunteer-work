@@ -8,14 +8,14 @@ const RegisterdWork = () => {
     const [currentState, setCurrentState] = useState(false);
     const email=logged.email;
     useEffect(() => {
-        fetch(`http://localhost:5000/registerd/${logged.email}`)
+        fetch(`https://volunteer-work-tareq.herokuapp.com/registerd/${logged.email}`)
             .then(response => response.json()
                 .then(data => setRegisterd(data))
             )
     }, [currentState])
     const history = useHistory();
     const deleteWork=(id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://volunteer-work-tareq.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
         .then(response => response.json())

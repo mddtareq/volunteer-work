@@ -9,14 +9,14 @@ const Admin = () => {
     const [registerd, setRegisterd] = useState([]);
     const [currentState, setCurrentState] = useState(false);
     useEffect(() => {
-        fetch(`http://localhost:5000/registerd`)
+        fetch(`https://volunteer-work-tareq.herokuapp.com/registerd`)
             .then(response => response.json()
                 .then(data => setRegisterd(data))
             )
     }, [currentState])
     const history = useHistory();
     const deleteWork = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://volunteer-work-tareq.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
@@ -28,7 +28,7 @@ const Admin = () => {
             })
     }
     const addEvent=(event) => {
-        fetch(`http://localhost:5000/addEvent`, {
+        fetch(`https://volunteer-work-tareq.herokuapp.com/addEvent`, {
             method: 'POST',
             body: JSON.stringify(events),
             headers: {
@@ -123,16 +123,17 @@ const Admin = () => {
                                     <label htmlFor="date">Date</label>
                                         <input onChange={change} className="form-control" type="date" name="date" id="date" min={today} required/>
                                     </div>
+                                    <div className="space"></div>
                                     <div className="col-md-6">
                                         <label htmlFor="description">Description</label>
                                             <textarea onChange={change} className="form-control" name="description" id="description" cols="30" rows="3" required></textarea>
                                     </div>
                                     <div className="col-md-6">
-                                        <label htmlFor="banner">Banner</label>
+                                        <label htmlFor="banner">Banner :</label>
                                         <input type="file"/>
                                     </div>
-                                    <div className="col-md-9"></div>
-                                    <div className="col-md-3">
+                                    <div className="col-md-10"></div>
+                                    <div className="col-md-2">
                                             <button className="btn btn-primary">Submit</button>
                                     </div>
                                 </div>

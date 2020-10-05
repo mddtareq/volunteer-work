@@ -34,7 +34,7 @@ const Registration = () => {
     const history = useHistory();
 
     const submit = (event) => {
-        fetch(`http://localhost:5000/addVolunteer`, {
+        fetch(`https://volunteer-work-tareq.herokuapp.com/addVolunteer`, {
             method: 'POST',
             body: JSON.stringify(registration),
             headers: {

@@ -14,6 +14,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.get('/',(req, res) => {
+  res.send("Welcome, Mohammad Tareq");
+})
+
 client.connect(err => {
     const typeCollection = client.db(process.env.DB_NAME).collection(process.env.DB_COLLECTION_WORK_TYPE);
     const volunteerCollection = client.db(process.env.DB_NAME).collection(process.env.DB_COLLECTION_VOLUNTEER);
@@ -70,4 +74,5 @@ client.connect(err => {
           })})
     
   });
-app.listen(port);
+app.listen(process.env.PORT || port);
+
